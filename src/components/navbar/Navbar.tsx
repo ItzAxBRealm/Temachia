@@ -1,7 +1,6 @@
 import { FaRegMoon } from "react-icons/fa6";
 import { Logo } from "../../assets";
 import { Link } from "react-router-dom";
-import "../../index.css";
 
 const Navbar = () => {
   return (
@@ -10,8 +9,9 @@ const Navbar = () => {
             {/* <div className="absolute left-1/2 transform -translate-x-1/2 flex-center justify-center rounded-full">
                 <img src={Logo} className="w-16 mt-2 p-1 rounded-full bg-white cursor-pointer hover:shadow-lg shadow-blue-700" alt="Temachia Logo" />
             </div> */}
-            <div className="">
-                <img src={Logo} className="w-16 p-1 cursor-pointer rounded-full dropshadow-color" alt="Temachia Logo" />
+            <div className="flex-center-center flex-row dropshadow-color cursor-pointer">
+                <img src={Logo} className="w-16 p-1 h-full cursor-pointer rounded-full" alt="Temachia Logo" />
+                <h3 className="text-black text-5xl font-smoochSans font-bold">Temachia</h3>
             </div>
             <div className="ml-auto flex flex-row items-center gap-8">
                 <ul className="flex-center-between flex-row gap-8">

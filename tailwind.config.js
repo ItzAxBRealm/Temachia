@@ -6,7 +6,6 @@ export default {
   ],
   theme: {
     extend: {
-      boxShadow: { 'custom': '0 4px 6px -1px rgba(255, 0, 0, 0.1), 0 2px 4px -1px rgba(255, 0, 0, 0.06)', },
       fontFamily: {
         lexend: ["Lexend", "sans-serif"],
         smoochSans: ["Smooch Sans", "sans-serif"],
