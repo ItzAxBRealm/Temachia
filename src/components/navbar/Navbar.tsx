@@ -21,9 +21,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                     <li className="hover:text-blue-400 transition-all duration-300 ease-in-out">
-                        <Link to="/" className="text-xl font-normal font-lexend">
-                            Components
-                        </Link>
+                        <h3 className="text-xl font-normal font-lexend cursor-pointer">Components</h3>
                     </li>
                 </ul>
                 <FaRegMoon className="text-2xl hover:text-blue-400 cursor-pointer transition-all duration-300 ease-in-out" />
