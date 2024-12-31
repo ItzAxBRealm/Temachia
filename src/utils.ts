@@ -42,10 +42,10 @@ export const Menus = [
                 name: "Navbars",
             },
             {
-                name: "Pricing",
+                name: "Pricing Cards",
             },
             {
-                name: "Search",
+                name: "Searchboxes",
             },
             {
                 name: "Testimonials"

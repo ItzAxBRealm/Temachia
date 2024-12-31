@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -12,17 +13,16 @@ export default {
         thescore: ["THE SCORE", "sans-serif"],
       },
       colors: {
-        primary: ["#4E31AA"],
-        secondary: ["#03001C"],
-
+        primary: "#4E31AA",
+        secondary: "#03001C",
       }
     },
     screens: {
       sm: "640px",
-      md: "767px",
-      lg: "1140px",
-      xl: "1440px",
-      "2xl": "1800px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
     }
   },
   plugins: [],
